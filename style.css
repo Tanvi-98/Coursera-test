@@ -20,10 +20,12 @@ h1 {
   font-size: 50px;
 }
 
+
 .box{
   width: 100%;
   overflow: none;
 }
+
 
 .content-name{
   overflow: none;
@@ -32,7 +34,7 @@ h1 {
   width: 100px;
   height: 40px;
   padding: 5px;
-  float: left;
+  float: right;
   margin-right: 36px;
   margin-top: 0px;
   font-weight: bold;
@@ -56,21 +58,22 @@ h1 {
 }
 
 .name2{
+  color: white;
   background-color: #FF0000;
 }
 .name3{
   background-color: #FFFF00;
 }
 
-/********** Laptop **********/
+
+/********** Laptop devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-
-/********** Tablet view **********/
+/********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
@@ -89,7 +92,8 @@ h1 {
 }
 
 
-/********** Mobile view **********/
+/********** Mobile devices only **********/
+
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-12 {
   	float: left;
